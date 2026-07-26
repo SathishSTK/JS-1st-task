@@ -309,7 +309,7 @@ switch (choice) {
 // Employee Management System
 
 let employeeDetails = {
-    name: "Sanjay",
+    name: "sathish",
     role: "Developer",
     salary: 30000,
     attendance: "Present"
