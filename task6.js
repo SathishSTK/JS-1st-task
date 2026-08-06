@@ -185,3 +185,48 @@ console.log("Return Minutes : " + minutes);
 console.log("Return Seconds : " + seconds);
 
 console.log("Book Return Date Confirmed");
+
+// Task 5 - Flight Ticket Booking System
+
+// Passenger Details
+let passengerName1 = "Sathish";
+let flightName = "Indigo";
+let ticketPrice1 = 10000;
+
+// Create Date
+let travelDate1 = new Date();
+
+// SET METHODS
+
+travelDate1.setFullYear(2026);
+travelDate1.setMonth(9);
+travelDate1.setDate(6);
+travelDate1.setHours(18);
+travelDate1.setMinutes(30);
+travelDate1.setSeconds(0);
+
+// GET METHODS
+
+// let year = travelDate1.getFullYear() - 4;
+// let month = travelDate1.getMonth() + 2;
+// let date = travelDate1.getDate();
+// let day = travelDate1.getDay();
+
+// let hours = travelDate1.getHours();
+// let minutes = travelDate1.getMinutes();
+// let seconds = travelDate1.getSeconds();
+
+// Display Booking Details
+
+console.log("Passenger Name : " + passengerName1);
+console.log("Flight Name : " + flightName);
+console.log("Ticket Price : " + ticketPrice1);
+
+console.log("Travel Year : " + year);
+console.log("Travel Month : " + month);
+console.log("Travel Date : " + date);
+console.log("Travel Day : " + day);
+
+console.log("Travel Hours : " + hours);
+console.log("Travel Minutes : " + minutes);
+console.log("Travel Seconds : " + seconds);
