@@ -1,0 +1,50 @@
+ <!-- Task 4 — Product Image Gallery -->
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Image Gallary</title>
+
+
+    <style>
+        body{
+            font-family: arial;
+            background-color: white;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .gallary{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .gallary > img{
+            width: 180px;
+            height: 200px;
+            object-fit: contain;
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <h1>Product Image Gallary</h1>
+
+    <div class="gallary"></div>
+
+    <script src="./task4.js"></script>
+
+</body>
+</html>
